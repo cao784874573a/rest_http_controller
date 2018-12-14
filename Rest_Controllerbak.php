@@ -6,10 +6,10 @@ if (!defined('BASEPATH')) { exit('No direct script access allowed');
  *
  * @package    CodeIgniter
  * @author     indraw
- * @change     guozw
- * @copyright  赛尔互联
- * @license    http://www.eol.cn
- * @link       http://www.eol.cn
+ * @change     
+ * @copyright  
+ * @license   
+ * @link       
  * @since      Version 2.0
  * @filesource
  */
