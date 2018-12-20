@@ -2,6 +2,8 @@ guzzle使用实列:
 
 使用方法:
 
+```php
+
 $client = new GuzzleHttp\Client();  //实例化客户端
 
 $header = ['Content-Type'=>'application/json'];  //content-type 方式  提交数据的时候 我们用什么类型的数据最好传什么数据 因为 在控制器里面 要对变量解析
@@ -50,3 +52,5 @@ $response=$client->request('GET',$uri ,$data,$header);  //第一个参数 是 �
         $json_token=json_decode($string,TRUE);  /
 
         return $json_token['access_token'];
+        
+ ```
